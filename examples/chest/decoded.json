@@ -1,0 +1,33 @@
+{
+  "blueprint": {
+    "icons": [
+      {
+        "signal": {
+          "type": "item",
+          "name": "logistic-chest-requester"
+        },
+        "index": 1
+      }
+    ],
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": -837.5,
+          "y": -64.5
+        },
+        "bar": 20,
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "wooden-chest",
+            "count": 50
+          }
+        ]
+      }
+    ],
+    "item": "blueprint",
+    "version": 281479273971713
+  }
+}

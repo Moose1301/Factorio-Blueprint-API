@@ -1,0 +1,532 @@
+{
+  "blueprint": {
+    "icons": [
+      {
+        "signal": {
+          "type": "item",
+          "name": "rail"
+        },
+        "index": 1
+      }
+    ],
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "rail-signal",
+        "position": {
+          "x": -878.5,
+          "y": -38.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 2,
+        "name": "train-stop",
+        "position": {
+          "x": -877,
+          "y": -39
+        },
+        "direction": 6,
+        "station": "[item=electronic-circuit] Load"
+      },
+      {
+        "entity_number": 3,
+        "name": "roboport",
+        "position": {
+          "x": -873,
+          "y": -41
+        }
+      },
+      {
+        "entity_number": 4,
+        "name": "logistic-chest-requester",
+        "position": {
+          "x": -875.5,
+          "y": -39.5
+        },
+        "request_filters": [
+          {
+            "index": 1,
+            "name": "coal",
+            "count": 100
+          }
+        ]
+      },
+      {
+        "entity_number": 5,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -874.5,
+          "y": -38.5
+        },
+        "neighbours": [
+          7
+        ]
+      },
+      {
+        "entity_number": 6,
+        "name": "fast-inserter",
+        "position": {
+          "x": -875.5,
+          "y": -38.5
+        }
+      },
+      {
+        "entity_number": 7,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -870.5,
+          "y": -39.5
+        },
+        "neighbours": [
+          5,
+          21
+        ]
+      },
+      {
+        "entity_number": 8,
+        "name": "steel-chest",
+        "position": {
+          "x": -869.5,
+          "y": -39.5
+        },
+        "bar": 20
+      },
+      {
+        "entity_number": 9,
+        "name": "steel-chest",
+        "position": {
+          "x": -868.5,
+          "y": -39.5
+        },
+        "bar": 20
+      },
+      {
+        "entity_number": 10,
+        "name": "stack-inserter",
+        "position": {
+          "x": -868.5,
+          "y": -38.5
+        }
+      },
+      {
+        "entity_number": 11,
+        "name": "stack-inserter",
+        "position": {
+          "x": -869.5,
+          "y": -38.5
+        }
+      },
+      {
+        "entity_number": 12,
+        "name": "steel-chest",
+        "position": {
+          "x": -866.5,
+          "y": -39.5
+        },
+        "bar": 20
+      },
+      {
+        "entity_number": 13,
+        "name": "steel-chest",
+        "position": {
+          "x": -867.5,
+          "y": -39.5
+        },
+        "bar": 20
+      },
+      {
+        "entity_number": 14,
+        "name": "stack-inserter",
+        "position": {
+          "x": -866.5,
+          "y": -38.5
+        }
+      },
+      {
+        "entity_number": 15,
+        "name": "stack-inserter",
+        "position": {
+          "x": -867.5,
+          "y": -38.5
+        }
+      },
+      {
+        "entity_number": 16,
+        "name": "steel-chest",
+        "position": {
+          "x": -865.5,
+          "y": -39.5
+        },
+        "bar": 20
+      },
+      {
+        "entity_number": 17,
+        "name": "steel-chest",
+        "position": {
+          "x": -864.5,
+          "y": -39.5
+        },
+        "bar": 20
+      },
+      {
+        "entity_number": 18,
+        "name": "stack-inserter",
+        "position": {
+          "x": -864.5,
+          "y": -38.5
+        }
+      },
+      {
+        "entity_number": 19,
+        "name": "stack-inserter",
+        "position": {
+          "x": -865.5,
+          "y": -38.5
+        }
+      },
+      {
+        "entity_number": 20,
+        "name": "steel-chest",
+        "position": {
+          "x": -862.5,
+          "y": -39.5
+        },
+        "bar": 20
+      },
+      {
+        "entity_number": 21,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -863.5,
+          "y": -39.5
+        },
+        "neighbours": [
+          7,
+          32
+        ]
+      },
+      {
+        "entity_number": 22,
+        "name": "stack-inserter",
+        "position": {
+          "x": -862.5,
+          "y": -38.5
+        }
+      },
+      {
+        "entity_number": 23,
+        "name": "steel-chest",
+        "position": {
+          "x": -861.5,
+          "y": -39.5
+        },
+        "bar": 20
+      },
+      {
+        "entity_number": 24,
+        "name": "steel-chest",
+        "position": {
+          "x": -860.5,
+          "y": -39.5
+        },
+        "bar": 20
+      },
+      {
+        "entity_number": 25,
+        "name": "stack-inserter",
+        "position": {
+          "x": -860.5,
+          "y": -38.5
+        }
+      },
+      {
+        "entity_number": 26,
+        "name": "stack-inserter",
+        "position": {
+          "x": -861.5,
+          "y": -38.5
+        }
+      },
+      {
+        "entity_number": 27,
+        "name": "steel-chest",
+        "position": {
+          "x": -858.5,
+          "y": -39.5
+        },
+        "bar": 20
+      },
+      {
+        "entity_number": 28,
+        "name": "steel-chest",
+        "position": {
+          "x": -859.5,
+          "y": -39.5
+        },
+        "bar": 20
+      },
+      {
+        "entity_number": 29,
+        "name": "stack-inserter",
+        "position": {
+          "x": -858.5,
+          "y": -38.5
+        }
+      },
+      {
+        "entity_number": 30,
+        "name": "stack-inserter",
+        "position": {
+          "x": -859.5,
+          "y": -38.5
+        }
+      },
+      {
+        "entity_number": 31,
+        "name": "steel-chest",
+        "position": {
+          "x": -857.5,
+          "y": -39.5
+        },
+        "bar": 20
+      },
+      {
+        "entity_number": 32,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -856.5,
+          "y": -39.5
+        },
+        "neighbours": [
+          21
+        ]
+      },
+      {
+        "entity_number": 33,
+        "name": "stack-inserter",
+        "position": {
+          "x": -857.5,
+          "y": -38.5
+        }
+      },
+      {
+        "entity_number": 34,
+        "name": "rail-signal",
+        "position": {
+          "x": -855.5,
+          "y": -38.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 35,
+        "name": "straight-rail",
+        "position": {
+          "x": -879,
+          "y": -37
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 36,
+        "name": "locomotive",
+        "position": {
+          "x": -873.99609375,
+          "y": -37
+        },
+        "orientation": 0.75,
+        "items": {
+          "coal": 150
+        }
+      },
+      {
+        "entity_number": 37,
+        "name": "straight-rail",
+        "position": {
+          "x": -877,
+          "y": -37
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 38,
+        "name": "straight-rail",
+        "position": {
+          "x": -875,
+          "y": -37
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 39,
+        "name": "straight-rail",
+        "position": {
+          "x": -873,
+          "y": -37
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 40,
+        "name": "straight-rail",
+        "position": {
+          "x": -871,
+          "y": -37
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 41,
+        "name": "cargo-wagon",
+        "position": {
+          "x": -866.99609375,
+          "y": -37
+        },
+        "orientation": 0.75,
+        "inventory": {
+          "bar": 20
+        }
+      },
+      {
+        "entity_number": 42,
+        "name": "straight-rail",
+        "position": {
+          "x": -869,
+          "y": -37
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 43,
+        "name": "straight-rail",
+        "position": {
+          "x": -867,
+          "y": -37
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 44,
+        "name": "straight-rail",
+        "position": {
+          "x": -865,
+          "y": -37
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 45,
+        "name": "cargo-wagon",
+        "position": {
+          "x": -859.99609375,
+          "y": -37
+        },
+        "orientation": 0.75,
+        "inventory": {
+          "bar": 20
+        }
+      },
+      {
+        "entity_number": 46,
+        "name": "straight-rail",
+        "position": {
+          "x": -863,
+          "y": -37
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 47,
+        "name": "straight-rail",
+        "position": {
+          "x": -861,
+          "y": -37
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 48,
+        "name": "straight-rail",
+        "position": {
+          "x": -859,
+          "y": -37
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 49,
+        "name": "straight-rail",
+        "position": {
+          "x": -857,
+          "y": -37
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 50,
+        "name": "straight-rail",
+        "position": {
+          "x": -855,
+          "y": -37
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 51,
+        "name": "straight-rail",
+        "position": {
+          "x": -853,
+          "y": -37
+        },
+        "direction": 2
+      }
+    ],
+    "schedules": [
+      {
+        "locomotives": [
+          36
+        ],
+        "schedule": [
+          {
+            "station": "[item=electronic-circuit] Load",
+            "wait_conditions": [
+              {
+                "compare_type": "or",
+                "type": "full"
+              },
+              {
+                "compare_type": "or",
+                "type": "inactivity",
+                "ticks": 300
+              },
+              {
+                "compare_type": "and",
+                "type": "item_count",
+                "condition": {
+                  "first_signal": {
+                    "type": "item",
+                    "name": "electronic-circuit"
+                  },
+                  "constant": 200,
+                  "comparator": ">"
+                }
+              }
+            ]
+          },
+          {
+            "station": "[item=electronic-circuit] Unload",
+            "wait_conditions": [
+              {
+                "compare_type": "or",
+                "type": "empty"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "item": "blueprint",
+    "version": 281479273971713
+  }
+}
