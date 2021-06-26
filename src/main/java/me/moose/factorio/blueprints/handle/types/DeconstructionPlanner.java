@@ -42,6 +42,9 @@ public class DeconstructionPlanner implements BPType {
 
     @Override
     public String getName() {
+        if(label == null) {
+            return "UnNammed Deconstruction Planner";
+        }
         return label;
     }
 

@@ -87,7 +87,7 @@ public class BlueprintBook  implements BPType {
     @Override
     public String getName() {
         if(label == null) {
-            return "Uignnammed Book";
+            return "Unnammed Book";
         }
         return label;
     }
