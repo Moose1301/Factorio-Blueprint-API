@@ -5,9 +5,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-@Getter
-@Setter
-@NoArgsConstructor
+@Getter @Setter @NoArgsConstructor
+//https://wiki.factorio.com/Blueprint_string_format#Item_filter_object
 public class ItemFilter {
     private JsonObject json;
     private int index;

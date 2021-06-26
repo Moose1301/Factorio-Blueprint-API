@@ -7,11 +7,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-@AllArgsConstructor
-@Getter
-@Setter
-@NoArgsConstructor
-
+@Getter @Setter @NoArgsConstructor
+//https://wiki.factorio.com/Blueprint_string_format#Tile_object
 public class Tile {
     private JsonObject json;
     private Position position;

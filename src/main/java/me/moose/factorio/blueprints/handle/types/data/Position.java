@@ -6,6 +6,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Getter @Setter @NoArgsConstructor
+//https://wiki.factorio.com/Blueprint_string_format#Position_object
 public class Position {
     private int x;
     private int y;

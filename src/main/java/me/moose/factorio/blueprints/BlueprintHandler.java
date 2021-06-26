@@ -6,6 +6,7 @@ import me.moose.factorio.blueprints.handle.types.BPType;
 import me.moose.factorio.blueprints.handle.types.Blueprint;
 import me.moose.factorio.blueprints.handle.types.BlueprintBook;
 
+//https://wiki.factorio.com/Blueprint_string_format
 
 public class BlueprintHandler {
     private JsonParser parser;

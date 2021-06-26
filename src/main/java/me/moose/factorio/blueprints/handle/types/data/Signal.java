@@ -5,9 +5,9 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-@Getter
-@Setter
-@NoArgsConstructor
+@Getter @Setter @NoArgsConstructor
+//Used for Condition
+////https://wiki.factorio.com/Blueprint_string_format#Wait_Condition_object (condition key)
 public class Signal {
     private JsonObject json;
     private String type;

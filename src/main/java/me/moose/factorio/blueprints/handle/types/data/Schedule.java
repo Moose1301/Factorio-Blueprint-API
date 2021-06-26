@@ -9,9 +9,8 @@ import lombok.Setter;
 import java.util.ArrayList;
 import java.util.List;
 
-@Getter
-@Setter
-@NoArgsConstructor
+@Getter @Setter @NoArgsConstructor
+//https://wiki.factorio.com/Blueprint_string_format#Schedule_object
 public class Schedule {
     private JsonObject json;
     private int[] locomotives;

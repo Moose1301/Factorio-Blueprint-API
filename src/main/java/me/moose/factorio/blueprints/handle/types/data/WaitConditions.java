@@ -8,15 +8,14 @@ import lombok.Setter;
 import java.util.ArrayList;
 import java.util.List;
 
-@Getter
-@Setter
-@NoArgsConstructor
+@Getter @Setter @NoArgsConstructor
+//https://wiki.factorio.com/Blueprint_string_format#Wait_Condition_object
 public class WaitConditions {
     private JsonObject json;
     private String type;
     private String compare_type;
     private int ticks;
-    private List<Condition> conditions = new ArrayList<>();
+    private List<CircuitCondition> conditions = new ArrayList<>();
     public WaitConditions(JsonObject json) {
         if(json.has("compare_type")) {
             compare_type = json.get("compare_type").getAsString();
@@ -29,7 +28,7 @@ public class WaitConditions {
         }
         if(json.has("condition")) {
             json.get("condition").getAsJsonArray().forEach(condition -> {
-                conditions.add(new Condition(condition.getAsJsonObject()));
+                conditions.add(new CircuitCondition(condition.getAsJsonObject()));
             });
         }
     }

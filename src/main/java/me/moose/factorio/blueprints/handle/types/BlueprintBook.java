@@ -12,10 +12,9 @@ import me.moose.factorio.blueprints.handle.Version;
 import java.util.ArrayList;
 import java.util.List;
 
-@AllArgsConstructor
 @Getter
-@Setter
-@NoArgsConstructor
+@Setter @NoArgsConstructor
+//https://wiki.factorio.com/Blueprint_string_format#Blueprint_book_object
 public class BlueprintBook  implements BPType {
     private JsonObject json;
     private String label;

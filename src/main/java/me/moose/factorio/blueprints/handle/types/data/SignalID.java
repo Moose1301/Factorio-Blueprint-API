@@ -6,9 +6,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-@Getter
-@Setter
-@NoArgsConstructor
+@Getter @Setter @NoArgsConstructor
+//https://wiki.factorio.com/Blueprint_string_format#SignalID_object
 public class SignalID {
     private JsonObject json;
     private String type;

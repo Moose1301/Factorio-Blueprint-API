@@ -8,9 +8,8 @@ import lombok.Setter;
 import java.util.ArrayList;
 import java.util.List;
 
-@Getter
-@Setter
-@NoArgsConstructor
+@Getter @Setter @NoArgsConstructor
+//https://wiki.factorio.com/Blueprint_string_format#Schedule_Record_object
 public class ScheduleRecord {
     private JsonObject json;
     private String station;

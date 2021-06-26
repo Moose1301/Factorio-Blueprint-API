@@ -8,9 +8,8 @@ import lombok.Setter;
 import java.util.ArrayList;
 import java.util.List;
 
-@Getter
-@Setter
-@NoArgsConstructor
+@Getter @Setter @NoArgsConstructor
+//https://wiki.factorio.com/Blueprint_string_format#Infinity_filter_object
 public class InfinityFilter {
     private JsonObject json;
     private String name;

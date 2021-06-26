@@ -8,9 +8,8 @@ import lombok.Setter;
 import java.util.ArrayList;
 import java.util.List;
 
-@NoArgsConstructor
-@Getter
-@Setter
+@NoArgsConstructor @Getter @Setter
+//https://wiki.factorio.com/Blueprint_string_format#Connection_point_object
 public class ConnectionPoint {
     private JsonObject json;
     private List<ConnectionData> red = new ArrayList<>();

@@ -9,6 +9,7 @@ import lombok.Setter;
 import java.util.regex.Pattern;
 
 @Getter @Setter @NoArgsConstructor
+//https://wiki.factorio.com/Blueprint_string_format#Icon_object
 public class Icon {
     private JsonObject json;
     private int index;

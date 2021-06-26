@@ -3,6 +3,7 @@ package me.moose.factorio.blueprints.handle;
 import lombok.Getter;
 
 import java.nio.ByteBuffer;
+//https://wiki.factorio.com/Version_string_format
 @Getter
 public class Version {
     private long version;

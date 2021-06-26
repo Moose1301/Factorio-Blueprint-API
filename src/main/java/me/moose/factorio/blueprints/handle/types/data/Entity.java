@@ -10,11 +10,9 @@ import lombok.Setter;
 import java.util.ArrayList;
 import java.util.List;
 
-@AllArgsConstructor
-@Getter
-@Setter
-@NoArgsConstructor
 
+@Getter @Setter @NoArgsConstructor
+//https://wiki.factorio.com/Blueprint_string_format#Entity_object
 public class Entity {
     private JsonObject json;
     private Position position;

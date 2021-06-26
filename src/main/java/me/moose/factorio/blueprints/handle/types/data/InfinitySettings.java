@@ -8,9 +8,8 @@ import lombok.Setter;
 import java.util.ArrayList;
 import java.util.List;
 
-@Getter
-@Setter
-@NoArgsConstructor
+@Getter @Setter @NoArgsConstructor
+//https://wiki.factorio.com/Blueprint_string_format#Infinity_settings_object
 public class InfinitySettings {
     private JsonObject json;
     private boolean remove_unfiltered_items;

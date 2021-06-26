@@ -5,9 +5,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-@NoArgsConstructor
-@Getter
-@Setter
+@NoArgsConstructor @Getter @Setter
+//https://wiki.factorio.com/Blueprint_string_format#Connection_object
 public class Connection {
     private JsonObject json;
     private ConnectionPoint one;

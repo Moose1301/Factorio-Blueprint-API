@@ -14,9 +14,8 @@ import me.moose.factorio.blueprints.handle.types.data.Tile;
 import java.util.ArrayList;
 import java.util.List;
 
-@Getter
-@Setter
-@NoArgsConstructor
+@Getter @Setter @NoArgsConstructor
+//https://wiki.factorio.com/Blueprint_string_format#Blueprint_object
 public class Blueprint implements BPType {
     private JsonObject json;
     private String label;

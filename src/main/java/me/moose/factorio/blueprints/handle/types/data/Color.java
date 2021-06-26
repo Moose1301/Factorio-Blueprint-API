@@ -6,6 +6,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @NoArgsConstructor @Getter @Setter
+//https://wiki.factorio.com/Blueprint_string_format#Color_object
 public class Color {
     private float r;
     private float g;

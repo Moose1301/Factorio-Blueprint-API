@@ -13,6 +13,7 @@ import java.util.List;
 @Getter
 @Setter
 @NoArgsConstructor
+//Based off of book/decoded.json#L2224
 public class DeconstructionPlanner implements BPType {
     private JsonObject json;
     private String label;

@@ -7,9 +7,8 @@ import lombok.Setter;
 
 import java.util.List;
 
-@Getter
-@Setter
-@NoArgsConstructor
+@Getter @Setter @NoArgsConstructor
+//https://wiki.factorio.com/Blueprint_string_format#Inventory_object
 public class Inventory {
     private JsonObject json;
     private int bar;
