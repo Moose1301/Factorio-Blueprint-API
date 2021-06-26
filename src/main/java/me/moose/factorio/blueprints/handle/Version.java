@@ -1,7 +1,9 @@
 package me.moose.factorio.blueprints.handle;
 
-import java.nio.ByteBuffer;
+import lombok.Getter;
 
+import java.nio.ByteBuffer;
+@Getter
 public class Version {
     private long version;
     private String major;
